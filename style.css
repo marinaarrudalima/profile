@@ -1,0 +1,72 @@
+#Marinas_photo {
+  width: 100px;
+  border-radius: 25%;
+}
+h1 {
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  color: #F2EFE5;
+  font-size: 20px;
+  line-height: 0.5;
+}
+h2 {
+  font-family:'Quicksand', sans-serif;
+  color: #F2EFE5;
+  font-weight: 80;
+  font-size: 15px;
+  line-height: 0.5;
+}
+.list-inline {
+  display: inline;
+}
+body {
+  font-family:'Quicksand', sans-serif;
+  background-color: #F2EFE5;
+  color: #FFE7E7;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+}
+#pinterest {
+  color: #F8F4EC;
+  line-height: 4;
+}
+
+#social_media {
+  line-break: 0.2;
+}
+
+.div-class {
+  background-color: #A87C7C;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 10px 20px #F8F4EC;
+  border: 2px dotted #F8F4EC;
+}
+
+.social-icon {
+  color: #F8F4EC;
+  font-size: 25px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
